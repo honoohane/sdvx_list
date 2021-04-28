@@ -64,7 +64,7 @@ def parse_17():
 
 
 def parse_18():
-    xlsx = 'C:\\Users\\shzeng\\Downloads\\git\\sdvx_list\\SDVXの難易度表をスプレッドシートで作る.xlsx'
+    xlsx = 'SDVXの難易度表をスプレッドシートで作る.xlsx'
 
     data = pd.read_excel(xlsx, sheet_name='Lv18', header=1)
 
@@ -131,7 +131,7 @@ def parse_18():
 
 
 def parse_16():
-    xlsx = 'C:\\Users\\shzeng\\Downloads\\git\\sdvx_list\\SDVXの難易度表をスプレッドシートで作る.xlsx'
+    xlsx = 'SDVXの難易度表をスプレッドシートで作る.xlsx'
 
     data = pd.read_excel(xlsx, sheet_name='Lv16\xa0', header=1)
 
